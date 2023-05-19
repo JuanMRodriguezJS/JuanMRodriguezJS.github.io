@@ -1,13 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Github Pages</title>
-</head>
-<body>
-    <p>Hosted With Github Pages</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Juan M. Rodriguez</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header"><h1>Juan M. Rodriguez</h1>
+        <a href="https://juanmrodriguezjs.github.io/"></a>
+        <ul>
+          <li class="fade-in">About Me</li>
+          <li class="fade-in">Experience</li>
+          <li class="fade-in">Projects</li>
+          <li class="fade-in">Contact</li>
+        </ul>
+      </nav></header>
+      <section class="content">
+        <h3>About Me</h3>
+        <p>Full-Time worker, part-time <span class="descriptor">coder</span>. Starting a long journey towards redefining my purpose through education and application. </p>
+      </section>
+      <aside class="sidebar">
+        <h3>Projects</h3>
+        <ul>
+          <li></li>
+          <li>123 Address</li>
+          <li>216-555-8090</li>
+        </ul>
+      </aside>
+      <div class="box-1">
+        <h3>Heading 1</h3>
+        <p>Filler.</p>
+      </div>
+      <div class="box-2">
+        <h3>Heading 2</h3>
+        <p>Filler.</p>
+      </div>
+      <div class="box-3">
+        <h3>Heading 3</h3>
+        <p>Filler.</p>
+      </div>
+      <div class="box-4">
+        <h3>Contact</h3>
+        <form onsubmit="return validateForm()">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      <footer class="footer">Copyright &copy; 2023</footer>
+    </div>
+  </body>
 </html>
