@@ -23,6 +23,10 @@ text-decoration: none;
 font-size: 0.9rem;
 }
 
+a:visited {
+	color: #9BA4B5;
+}
+
 .header {
 height: 100%;
 display: flex;
@@ -126,20 +130,20 @@ padding: 1rem;
 
 .socials-container-list {
 	list-style-type: none;
-	display: flex;
+	display: inline-flex;
 	justify-content: left;
 	align-items: left;
 }
 
-.socials-container-list-item {
-	--c: #5c469c;
+.socials-container-list-item > a {
+	--c: #9BA4B5;
 	margin: 0 10px;
-	font-size: 1.5rem;
+	font-size: 1.1rem;
 	color: var(--c);
 	transition: color 0.2s ease-in-out;
 }
 
-.socials-container-list-item:hover {
+.socials-container-list-item:hover > a {
 	color: #f1f6f9;
 }
 
